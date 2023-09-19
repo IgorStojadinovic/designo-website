@@ -1,0 +1,51 @@
+.form-input {
+    
+    @apply
+    bg-transparent 
+    text-white
+    placeholder:text-white/50 
+    block  
+    w-full 
+    border-b-[2px] 
+    border-white 
+    py-2
+    mb-5 
+    shadow-sm 
+    focus:outline-none 
+    
+}
+
+.form-input-textarea{
+
+    resize: none;
+    @apply
+    bg-transparent 
+    text-white
+    placeholder:text-white/50 
+    block  
+    w-full 
+    border-b-[2px] 
+    border-white 
+    py-2
+    mb-[40px]
+    shadow-sm 
+    focus:outline-none 
+}
+
+
+.oval {
+
+  position: absolute;
+  height: 840px;
+  width: 840px;
+  border-radius: 100%;
+  opacity: 0.3089;
+  top:-100px;
+  left:-200px;
+  background: linear-gradient(90deg, rgba(93, 2, 2, 0.00) 0%, rgba(93, 2, 2, 0.50) 100%);
+
+}
+
+.oval-top {
+    background: linear-gradient(to top, #5d020228 40%, #eeeeee07 80%);
+}

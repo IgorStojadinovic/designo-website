@@ -3,84 +3,18 @@
 @tailwind utilities;
 
 @layer base {
-  html {
+  body {
     font-family: "Jost", sans-serif;
     overflow-x: hidden;
   }
 }
 
-dt {
-  display: flex;
-}
-dl {
-  display: flex;
-}
-.oval {
-  background: linear-gradient(to right, #5d020228 40%, #eeeeee07 80%);
-}
-.oval-top {
-  background: linear-gradient(to top, #5d020228 40%, #eeeeee07 80%);
-}
-
-.footer-gradient {
-  background: linear-gradient(to top, #1d1c1e 50%, #ffffff 50%);
-}
-
-footer {
-  background-color: #1d1c1e;
-}
-
-@media screen and (min-width: 768px) {
-  .oval {
-    background: linear-gradient(to bottom, #5d020228 5%, #eeeeee07 80%);
-  }
-}
-
-
-@layer components{
-
-  .form-input {
-    
-    @apply
-    bg-transparent 
-    text-white
-    placeholder:text-white/50 
-    block  
-    w-full 
-    border-b-[2px] 
-    border-white 
-    py-2
-    mb-5 
-    shadow-sm 
-    focus:outline-none 
-  }
-
-  .form-input-textarea{
-    resize: none;
-        @apply
-    bg-transparent 
-    text-white
-    placeholder:text-white/50 
-    block  
-    w-full 
-    border-b-[2px] 
-    border-white 
-    py-2
-    mb-[40px]
-    shadow-sm 
-    focus:outline-none 
-  }
-
-  
-}
-
-.oval{
-  position: absolute;
-  height: 840px;
-  width: 840px;
-  border-radius: 100%;
-  opacity: 0.3089;
-  top:-100px;
-  left:-200px;
-  background: linear-gradient(90deg, rgba(93, 2, 2, 0.00) 0%, rgba(93, 2, 2, 0.50) 100%);
-}
+@import "./assets/styles/navbar.css";
+@import "./assets/styles/figures.css";
+@import "./assets/styles/home.css";
+@import "./assets/styles/graphicdesign.css";
+@import "./assets/styles/appdesgin.css";
+@import "./assets/styles/webdesgin.css";
+@import "./assets/styles/locations.css";
+@import "./assets/styles/contact.css";
+@import "./assets/styles/footer.css";

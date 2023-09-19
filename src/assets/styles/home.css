@@ -1,0 +1,207 @@
+.home-main-section {
+
+    @apply 
+    bg-peach 
+    overflow-hidden 
+    relative  
+    text-white 
+    flex 
+    flex-col 
+    justify-center 
+    items-center 
+    px-6 
+    pt-20   
+    md:mx-10 md:rounded-xl  
+    xl:flex-row 
+    xl:mx-[164px] 
+    xl:px-24 
+    xl:pt-0 
+    xl:h-[664px] 
+    xl:justify-between 
+    2xl:mx-[256px]
+
+}
+
+.home-article {
+
+    @apply 
+    h-[50%] 
+    mb-20 
+    z-40 
+    overflow-hidden 
+    flex 
+    flex-col 
+    justify-start 
+    items-center 
+    text-center    
+    md:h-[50%]  
+    md:justify-center    
+    xl:w-1/2 
+    xl:items-start 
+    xl:h-full
+
+}
+
+.home-article-title {
+
+    @apply 
+    text-sm 
+    leading-8 
+    mb-[14px]   
+    md:text-[48px] 
+    md:leading-[48px] 
+    md:px-16   
+    xl:px-0 
+    xl:pr-10 
+    xl:text-left
+
+}
+
+.home-article-text {
+
+    @apply 
+    mb-[14px] 
+    leading-[25px] 
+    font-light   
+    md:px-32 
+    xl:px-0   
+    xl:text-left 
+    xl:mb-12
+
+}
+
+.home-article-picture {
+
+    @apply
+    h-[50%] 
+    flex 
+    justify-center 
+    items-center  
+    xl:w-[50%] 
+    xl:h-[100%] 
+    xl:mb-0 
+
+}
+
+.home-article-img {
+
+    @apply 
+    w-full 
+    h-full 
+    z-20 
+    md:h-full  
+    lg:w-full 
+    xl:w-1/2  
+
+}
+
+/************************************************/
+
+.home-services-grid {
+
+    @apply 
+    grid 
+    grid-rows-3 
+    gap-5
+    px-6 
+    my-[120px] 
+    sm:grid-rows-3 
+    md:grid-rows-1 
+    md:px-10 
+    lg:grid-rows-1 
+    lg:px-[82px] 
+    xl:grid-cols-2 
+    xl:grid-rows-2 
+    xl:px-[164px] 
+    xl:h-[640px] 
+    2xl:px-[256px]
+  
+}
+
+.home-services-figure {
+
+    @apply 
+    rounded-lg  
+    absolute 
+    top-0 
+    left-0 
+    right-0 
+    bottom-0 
+    -z-40 
+    md:h-[full] 
+    xl:row-span-2 
+    xl:h-full
+    
+}
+
+
+/****************************************************************/
+
+.home-usp-gird {
+
+    @apply 
+    px-6 
+    mb-[100px] 
+    grid 
+    grid-cols-1 
+    gap-20 
+    sm:grid-cols-2 
+    md:grid-cols-1 
+    md:px-10  
+    lg:grid-cols-3 
+    lg:gap-16 
+    lg:px-[82px] 
+    xl:grid-cols-3
+    xl:px-[164px]
+    2xl:px-[256px]   
+
+}
+
+.home-usp-figure {
+
+    @apply 
+    flex 
+    flex-col 
+    justify-center 
+    items-center 
+    md:flex-row 
+    md:h-[200px] 
+    lg:flex-col 
+    lg:h-[400px]
+
+}
+
+.home-usp-picture {
+
+    @apply 
+    mb-12 
+    md:w-[25%] 
+    md:mb-0 
+    lg:w-full 
+    lg:mb-12
+
+}
+
+.home-usp-figcaption {
+
+    @apply 
+    text-center 
+    md:w-[75%] 
+    md:text-left 
+    md:ml-12  
+    lg:text-center 
+    lg:ml-0 
+    lg:w-full
+
+}
+
+.home-usp-figcaption-title {
+
+    @apply 
+    text-[20px] 
+    uppercase 
+    tracking-[5px] 
+    font-medium 
+    text-black
+    
+}

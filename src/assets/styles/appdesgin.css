@@ -1,0 +1,124 @@
+.app-design-section {
+
+    @apply 
+    px-6 
+    py-[105px] 
+    bg-peach 
+    relative 
+    md:mx-10 
+    md:rounded-lg 
+    overflow-hidden 
+    xl:mx-[164px] 
+    2xl:mx-[256px]
+
+}
+
+.app-design-article {
+
+    @apply 
+    z-10 
+    text-center 
+    text-white 
+    relative
+
+}
+
+.app-desgin-title {
+
+    @apply 
+    text-sm 
+    leading-8 
+    mb-6 
+    md:text-[48px] 
+    md:leading-[48px] 
+
+}
+
+.app-design-text {
+
+    @apply 
+    leading-[25px] 
+    font-light 
+    text-[15px] 
+    md:text-[16px]
+    md:px-32
+
+}
+
+.app-desgin-bg-pattern {
+
+    @apply 
+    absolute 
+    top-0 
+    right-[-100px] 
+    scale-[2] 
+    lg:top-[-100px] 
+    lg:left-[-100px] 
+
+}
+
+
+/*******************************************************************/
+
+
+.app-desgin-grid {
+
+    @apply 
+    grid 
+    grid-cols-1 
+    gap-10 
+    px-6 
+    mt-24 
+    md:mt-[120px] 
+    md:px-10 
+    lg:grid-cols-3 
+    xl:px-[164px] 
+    2xl:px-[164px] 
+    2xl:grid-cols-3 
+    2xl:px-[256px]
+    2xl:my-[160px]
+
+}
+
+
+.app-desgin-figure {
+
+    @apply 
+    text-center 
+    flex 
+    flex-col 
+    md:flex-row 
+    md:h-auto 
+    lg:flex-col 
+    rounded-lg 
+    overflow-hidden
+
+}
+
+.app-desgin-figcaption {
+
+    @apply 
+    bg-figure 
+    py-8 
+    px-7 
+    w-full 
+    flex-col 
+    justify-center
+    md:flex 
+    md:w-1/2 
+    lg:w-full 
+    2xl:w-full 
+
+}
+
+.app-desgin-figcaption-title {
+
+    @apply 
+    text-[20px] 
+    font-medium 
+    uppercase 
+    tracking-[5px]	 
+    text-peach 
+    mb-4
+
+}

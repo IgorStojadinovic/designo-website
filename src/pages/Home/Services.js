@@ -10,15 +10,16 @@ import ServiceDesktop02 from "../../assets/images/home/desktop/image-app-design.
 import ServiceDesktop03 from "../../assets/images/home/desktop/image-graphic-design.jpg";
 import { RiArrowRightSLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import "../../assets/styles/figures.css";
+
+
 const Services = () => {
   return (
-    <section className="grid grid-rows-3 sm:grid-rows-3 md:grid-rows-1 lg:grid-rows-1 xl:grid-cols-2 xl:grid-rows-2 gap-5 my-[120px] px-6 md:px-10 lg:px-[82px] xl:px-[164px] xl:h-[640px] 2xl:px-[256px]">
+    <section className="home-services-grid">
       <Link
         to="web-design"
         className=" relative xl:row-span-2 xl:h-full md:h-[200px] rounded-lg figure"
       >
-        <figure className="rounded-lg  absolute top-0 left-0 right-0 bottom-0 -z-40 md:h-[full] xl:row-span-2 xl:h-full   ">
+        <figure className="home-services-figure">
           <picture className="rounded-lg -z-10">
             <source media="(min-width:1440px)" srcSet={ServiceDesktop01} />
             <source media="(min-width:768px)" srcSet={ServiceTablet01} />

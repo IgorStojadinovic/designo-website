@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <>
       {" "}
-      <nav className=" px-6 py-8 bg-white z-50 relative flex justify-between md:px-10 md:py-16 lg:px-[82px] xl:px-[164px] 2xl:px-[256px]">
+      <nav className="navbar">
         <img
           src={Logo}
           className="h-100 w-2/4 sm:w-1/4 md:w-1/4 lg:w-2/12 "
@@ -47,8 +47,8 @@ const Navbar = () => {
         <ul
           className={
             menu
-              ? "transition-all duration-300 ease-in-out m-0  absolute left-0   w-screen  h-screen top-[85px] bg-black/50  text-white uppercase  md:hidden 2xl:hidden"
-              : "transition-all duration-500 ease-in-out m-0 absolute    w-screen  h-screen top-[85px] left-[-5000px] bg-black/50  text-white uppercase  "
+              ? "menu-active"
+              : "menu-closed"
           }
         >
           <div className=" bg-black w-full h-full flex flex-col items-center justify-center">

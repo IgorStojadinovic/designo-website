@@ -1,9 +1,14 @@
 .figure-overlay {
+
   background-color: rgb(29 28 30 / 0.75);
   transition: background-color 0.2s ease-in-out;
+
 }
+
 .figure:hover {
+
   .figure-overlay {
     background-color: #e7826b8a;
   }
+
 }

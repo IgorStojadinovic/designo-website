@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Button from '../components/Button';
 import CA from "../assets/images/contact/mobile/ca.svg"
 import AU from "../assets/images/contact/mobile/au.svg"
 import UK from "../assets/images/contact/mobile/uk.svg"
+
 const Contact = () => {
   return(
     <>
@@ -25,17 +27,23 @@ const Contact = () => {
       <div className='flex flex-col items-center'>
         <img src={CA} alt='ca-icon'/>
         <h1 className='my-12 uppercase text-2xl'>Canada</h1>
-        <Button type="dark" text="See Location" />
+        <Link to="/locations">
+          <Button type="dark" text="See Location" />
+        </Link>
       </div>
       <div className='flex flex-col items-center'>
         <img src={AU} alt='au-icon'/>
         <h1 className='my-12 uppercase text-2xl'>Australia</h1>
-        <Button type="dark" text="See Location" />
+        <Link to="/locations">
+          <Button type="dark" text="See Location" />
+        </Link>
       </div>
       <div className='flex flex-col items-center'>
         <img src={UK} alt='uk-icon'/>
         <h1 className='my-12 uppercase text-2xl'>United Kingdom</h1>
-        <Button type="dark" text="See Location" />
+        <Link to="/locations">
+          <Button type="dark" text="See Location" />
+        </Link>
       </div>
     </div>
  </>
