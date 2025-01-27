@@ -19,7 +19,7 @@ const Header = () => {
         </p>
         <Button type="light" text="learn more" />
       </article>{" "}
-      <img src={BgPttern} className="absolute right-0"/>
+      <img src={BgPttern} className="absolute right-0" alt="home-background-patter"/>
       <picture className="home-article-picture">
         <source media="(min-width:640px)" srcSet={Phone} />
 

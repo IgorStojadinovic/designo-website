@@ -26,7 +26,7 @@ const Footer = () => {
             </p>
           </div>
           <Button type="light" text="get in touch" className="" />
-          <img src={FooterPattern} className="absolute right-0 -z-10"/>
+          <img src={FooterPattern} className="absolute right-0 -z-10" alt="footer-patter"/>
         </article>
       </section>
       <section className="footer-info-section">

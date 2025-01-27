@@ -55,7 +55,8 @@ const Navbar = () => {
             <li className="">
               {" "}
               <Link
-                to="/"
+                  rel="canonical"
+                  to="/"
                 className="hover:text-light-peach text-2xl font-semibold"
               >
                 Our Company
@@ -69,7 +70,8 @@ const Navbar = () => {
               }
             >
               <Link
-                to="/locations"
+                  rel="canonical"
+                  to="/locations"
                 className="text-2xl font-semibold hover:text-light-peach"
               >
                 Locations
@@ -78,7 +80,8 @@ const Navbar = () => {
             <li>
               {" "}
               <Link
-                to="/contact"
+                  rel="canonical"
+                  to="/contact"
                 className="hover:text-light-peach text-2xl font-semibold"
               >
                 Contact
@@ -89,17 +92,17 @@ const Navbar = () => {
 
         <ul className="hidden md:flex w-1/2 lg:w-1/3 justify-between">
           <li className="transition-all duration-100 uppercase text-black nav-link">
-            <Link to="/">Our Company</Link>
+            <Link to="/" rel="canonical" >Our Company</Link>
             <div className="link-bar"></div>
           </li>
           <li className="transition-all duration-100 uppercase text-black nav-link">
             {" "}
-            <Link to="/locations">Locations</Link>
+            <Link to="/locations" rel="canonical" >Locations</Link>
             <div className="link-bar"></div>
           </li>
           <li className="transition-all duration-100 uppercase text-black nav-link">
             {" "}
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" rel="canonical" >Contact</Link>
             <div className="link-bar"></div>
           </li>
         </ul>
