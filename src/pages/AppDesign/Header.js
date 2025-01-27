@@ -7,9 +7,9 @@ const Header = () => {
     <>
       <section className="app-design-section">
         <article className="app-design-article">
-          <h1 className="app-desgin-title">
+          <p className="app-desgin-title">
             App Design
-          </h1>
+          </p>
           <p className="app-design-text">
           Our mobile designs bring intuitive digital solutions
           to your customers right at their fingertips.

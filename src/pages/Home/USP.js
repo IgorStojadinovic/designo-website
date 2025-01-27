@@ -16,9 +16,9 @@ const USP = () => {
           />
         </picture>
         <figcaption className="home-usp-figcaption">
-          <h1 className="home-usp-figcaption-title ">
+          <p className="home-usp-figcaption-title ">
             Passionate
-          </h1>
+          </p>
           <p className="leading-6">
             Each project starts with an in-depth brand research to ensure we
             only create products that serve a purpose. We merge art, design, and
@@ -35,9 +35,9 @@ const USP = () => {
           />
         </picture>
         <figcaption className="home-usp-figcaption">
-          <h1 className="home-usp-figcaption-title">
+          <p className="home-usp-figcaption-title">
             Passionate
-          </h1>
+          </p>
           <p className="leading-6">
             Each project starts with an in-depth brand research to ensure we
             only create products that serve a purpose. We merge art, design, and
@@ -54,9 +54,9 @@ const USP = () => {
           />
         </picture>
         <figcaption className="home-usp-figcaption">
-          <h1 className="home-usp-figcaption-title">
+          <p className="home-usp-figcaption-title">
             Passionate
-          </h1>
+          </p>
           <p className="leading-6">
             Each project starts with an in-depth brand research to ensure we
             only create products that serve a purpose. We merge art, design, and

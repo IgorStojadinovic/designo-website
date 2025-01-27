@@ -5,9 +5,9 @@ const Header = () => {
     <>
       <section className="graphics-design-section">
         <article className="graphic-design-article">
-          <h1 className="graphic-desgin-title">
+          <p className="graphic-desgin-title">
           Graphic Design
-          </h1>
+          </p>
           <p className="graphic-design-text">
           We deliver eye-catching branding materials that are tailored to meet your business objectives.          </p>
         </article>

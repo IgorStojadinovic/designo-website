@@ -6,9 +6,9 @@ const Header = () => {
   
       <section className="web-design-section">
         <article className="web-design-article">
-          <h1 className="web-desgin-title">
+          <p className="web-desgin-title">
             Web Design
-          </h1>
+          </p>
           <p className="web-design-text">
           We build websites that serve as powerful marketing tools and bring memorable brand experiences.
           </p>
