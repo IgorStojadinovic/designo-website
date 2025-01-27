@@ -69,27 +69,27 @@ const Footer = () => {
           </ul>
           <ul className="footer-contact-info-ul">
             <li className="footer-contact-info-li">
-              <Link to="www.facebook.com">
+              <Link to="http://www.facebook.com">
                 <AiFillFacebook size={24} color="#E7816B" />
               </Link>
             </li>
             <li className="footer-contact-info-li">
-              <Link to="www.youtube.com">
+              <Link to="http://www.youtube.com">
                 <FaYoutubeSquare size={24} color="#E7816B" />
               </Link>
             </li>
             <li className="footer-contact-info-li">
-              <Link to="www.twitter.com">
+              <Link to="http://www.twitter.com">
                 <AiOutlineTwitter size={24} color="#E7816B" />
               </Link>
             </li>
             <li className="footer-contact-info-li">
-              <Link to="www.pinterest.com">
+              <Link to="http://www.pinterest.com">
                 <BsPinterest size={24} color="#E7816B" />
               </Link>
             </li>
             <li className="footer-contact-info-li">
-              <Link to="www.instagram.com">
+              <Link to="http://www.instagram.com">
                 <AiOutlineInstagram size={24} color="#E7816B" />
               </Link>
             </li>
