@@ -29,6 +29,6 @@ module.exports = {
         "pattern-cta-desktop": "url('./src/assets/images/shared/desktop/bg-pattern-call-to-action.svg')",
       }
     },
-    plugins: [],
+    plugins: []
   },
 };
