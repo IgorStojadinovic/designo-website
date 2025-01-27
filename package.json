@@ -15,8 +15,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build:sitemap": "node generate-sitemap.js",
+    "build": "npm run build:sitemap && react-scripts build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
