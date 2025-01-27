@@ -55,8 +55,7 @@ const Navbar = () => {
             <li className="">
               {" "}
               <Link
-                  rel="canonical"
-                  to="/"
+                  to="https://designo-seo.netlify.app/"
                 className="hover:text-light-peach text-2xl font-semibold"
               >
                 Our Company
